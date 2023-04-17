@@ -6,10 +6,12 @@ footer{
 .content{
 	width:100%;
 	display:flex;
+	flex-wrap:wrap;
 }
 .top{
 	display:flex;
 	width:100%;
+	align-item:center;
 }
 .top .logo-details{
 	flex:1;
@@ -17,14 +19,14 @@ footer{
     align-items: center;
 }
 .logo-details .logo_name{
-	font-size:38px;
+	font-size:2.3rem;
 	color:#fff;
 }
 .media-icons{
 	flex:1;
 	display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: end;
 }
 .media-icons .fa {
 	height:50px;
@@ -35,7 +37,7 @@ footer{
 	font-size: 24px;
 	text-align: center;
 	text-decoration: none;
-	margin: 5px 2px;
+	margin: 5px 12px;
 	border-radius:100%;
 }
 .fa-facebook{
