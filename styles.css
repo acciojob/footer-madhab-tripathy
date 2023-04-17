@@ -4,7 +4,7 @@ footer{
 	padding:30px;
 }
 .content{
-	width:100%;
+/* 	width:100%; */
 	display:flex;
 	flex-wrap:wrap;
 }
@@ -65,7 +65,12 @@ footer{
 .link-boxes{
 	display:flex;
 	width:100%;
-	
+	justify-content: space-between;
+	margin-top:50px;
+}
+.link-boxes > div{
+	flex:1;
+	text-align:left;
 }
 
 
