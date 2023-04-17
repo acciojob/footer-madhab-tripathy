@@ -11,11 +11,10 @@ footer{
 .top{
 	display:flex;
 	width:100%;
-	align-item:center;
 }
 .top .logo-details{
 	display: flex;
-	justify-content:center;
+	justify-content:start;
     align-items: center;
 }
 .logo-details .logo_name{
@@ -67,19 +66,21 @@ footer{
 	width:100%;
 	justify-content: space-between;
 	margin-top:50px;
+	padding-left:6px;
 }
 .link-boxes > div{
 	flex:1;
 }
 .link-boxes h2{
 	color:#FFF;
+	font-weight:300;
 }
 ul{
 	
 	list-style-type:none;
 }
 ul li{
-	margin-top:15px
+	margin-top:20px;
 }
 ul li a{ 
 	color:#FFF;
