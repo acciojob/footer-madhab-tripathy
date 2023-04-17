@@ -1,7 +1,7 @@
 /* your code here */
 footer{
-	background-color:#000;
-/* 	padding:30px; */
+/* 	background-color:#000; */
+	padding:30px;
 }
 .content{
 	width:100%;
@@ -62,7 +62,11 @@ footer{
   background: #e1306c;
   color: white;
 }
-
+.link-boxes{
+	display:flex;
+	width:100%;
+	
+}
 
 
 
