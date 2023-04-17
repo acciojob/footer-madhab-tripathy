@@ -71,7 +71,11 @@ footer{
 .link-boxes > div{
 	flex:1;
 }
+.link-boxes h2{
+	color:#FFF;
+}
 ul{
+	color:#FFF;
 	list-style-type:none;
 }
 ul li{
